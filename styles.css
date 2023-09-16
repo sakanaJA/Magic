@@ -57,7 +57,7 @@
     border-radius: 8px;
     background-image: linear-gradient(
       var(--rotate)
-      , #f0f0f0,  #001dc2);
+      , #f0f0f0,   rgba(232, 234, 238, 0.66));
       position: absolute;
       z-index: -1;
       top: -1%;
