@@ -57,12 +57,12 @@
     border-radius: 8px;
     background-image: linear-gradient(
       var(--rotate)
-      , #f25dff, #3ce376 43%, #4e00c2);
+      , #f0f0f0,  #4e00c2);
       position: absolute;
       z-index: -1;
       top: -1%;
       left: -2%;
-      animation: spin 2.5s linear infinite;
+      animation: spin 4s linear infinite;
   }
   
   .card::after {
@@ -114,6 +114,6 @@
 }
 
 .card:hover a {
-  transition: color 10s;
+  transition: color 9s;
   color: rgb(250, 88, 209);
 }
